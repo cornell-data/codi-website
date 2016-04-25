@@ -1,55 +1,59 @@
-@charset "utf-8";
+/* CSS File for CODI */
 
-body {
-  background: #d4d4d4 url("../images/background.png");
+/* Layout.erb Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
   text-align: center;
-  font-family: sans-serif; }
+  height: 70px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
 
-h1 {
-  color: rgba(0, 0, 0, .3);
-  font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  background: url("../images/middleman.png") no-repeat center 100px;
-  padding: 350px 0 10px;
-  margin: 0; }
+.codi-link {
+	width: 150px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 35px;
+	height: 90px;
+	transition: all 300ms;
+}
 
-.doc {
-  font-size: 14px;
-  margin: 0; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "•"; }
-  .doc a {
-    color: rgba(0, 0, 0, 0.3); }
-    .doc a:hover {
-      color: #666; }
+.codi-link:hover {
+	background-color: red;
+}
 
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
+.visible-link {
+	padding: 0 10px;
+}
 
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+.site-logo {
+  height: 65px;
+  width: 65px;
+  margin-right: 10px;
+}
+
+.codi-navbar {
+  height: 90px;
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+  width: 250px;
+}
+
+.navbar-brand img {
+  float: left;
+}
+
+.navbar-brand h4 {
+  font-size: 23px;
+  margin: 5px;
 }
