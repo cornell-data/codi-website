@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
+  padding-top: 30px;
   position: static;
   left:0px;
   bottom:0px;
@@ -91,3 +92,19 @@ footer {
 .spacer{
   margin-top: 8%;
 } 
+
+/* CSS for About page */
+
+.sidebar p {
+  padding-left:70px;
+}
+
+.org-logo{
+  width:32%;
+  padding: 10px 40px 20px 0px;
+}
+
+.icon{
+  width:70px;
+  padding-top: 7px;
+}
