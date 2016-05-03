@@ -73,9 +73,6 @@ footer {
 .contributions p{
   padding-left: 70px;
 }
-.involved{
-  padding-left: 10px;
-}
 .contact{
   padding-left: 10%;
 }
@@ -88,19 +85,12 @@ footer {
 .greyish{
   color: #696969;
 }
-#holder{
-  margin-top: 12%;
-  margin-left: 5%;
-}
 .spacer{
   margin-top: 8%;
 } 
 .icon2{
   width:70px;
   padding-top:22px;
-}
-.taskProjects h4{
-  padding-left: 70px;
 }
 .pusher{
   padding-left: 70px;
