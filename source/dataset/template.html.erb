@@ -1,0 +1,14 @@
+<% content_for(:title, dset.name) %>
+
+<h3>Open Datasets</h3>
+
+<div id = "map">
+  <h4>Map Data</h4>
+  <ul>
+    <% dset.each do |i| %>
+      <% if i.category? 'Map Data' %>
+        <li>i.name</li>
+      <% end %>
+    <% end %>
+  </ul>
+</div>

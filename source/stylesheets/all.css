@@ -5,9 +5,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  margin-top: 100px;
+}
+
 footer {
   position: static;
   left:0px;
+  right:0;
   bottom:0px;
   text-align: center;
   height: 70px;

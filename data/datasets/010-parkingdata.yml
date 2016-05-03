@@ -1,0 +1,27 @@
+name: Parking Data
+logo: TEST
+category: Map Data
+lede: "Locations of all the permit parking lots on campus. Does not include parkmobile locations."
+datafiles:
+  - url: test
+    desc: CSV
+  - url: test
+    desc: JSON
+  - url: test
+    desc: GeoJSON
+fields:
+  - title: Name
+    type: String
+    example: Lot A
+  - title: Address
+    type: String
+    example: 123 Wallaby Lane
+  - title: Latitude
+    type: Float
+    example: 98978
+  - title: Longitude
+    type: Float
+    example: 12345
+  - title: Notes
+    type: String
+    example: Covered Parking

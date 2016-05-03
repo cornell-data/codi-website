@@ -2,6 +2,20 @@
 title: Data - CODI
 ---
 
-<div class="welcome">
+<div class="container">
+
+	<h2><b>Open Datasets</b></h2>
+	<br>
+
+	<div id = "map">
+	  <h4>Map Data</h4>
+	  <ul>
+	    <% data.datasets.each do |dset| %>
+	    	<% if dset[1].category? "Map Data" %>
+	    	    <li><%= dset[1].name %></li>
+	    	<% end %>
+	    <% end %>
+	  </ul>
+	</div>
   
 </div><!-- .welcome -->
