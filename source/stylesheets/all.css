@@ -69,11 +69,9 @@ footer {
   margin-top: 10%;
   margin-left: 8%;
 }
-.bold{
-  font-style: bold;
-}
-.right{
-  margin-left: 5%;
+/* involved page */
+.contributions p{
+  padding-left: 70px;
 }
 .involved{
   padding-left: 10px;
@@ -97,6 +95,17 @@ footer {
 .spacer{
   margin-top: 8%;
 } 
+.icon2{
+  width:70px;
+  padding-top:22px;
+}
+.taskProjects h4{
+  padding-left: 70px;
+}
+.pusher{
+  padding-left: 70px;
+}
+
 
 /* CSS for About page */
 
