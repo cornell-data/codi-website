@@ -10,6 +10,7 @@ body {
 }
 
 footer {
+  padding-top: 30px;
   position: static;
   left:0px;
   right:0;
@@ -96,3 +97,19 @@ footer {
 .spacer{
   margin-top: 8%;
 } 
+
+/* CSS for About page */
+
+.sidebar p {
+  padding-left:70px;
+}
+
+.org-logo{
+  width:32%;
+  padding: 10px 40px 20px 0px;
+}
+
+.icon{
+  width:70px;
+  padding-top: 7px;
+}
