@@ -34,13 +34,15 @@
     <%= yield %>
 
     <footer>
+      <div class="container">
       <%= link_to 'Home', '/index.html', :class => 'visible-link'  %>
-      <%= link_to 'About', '/about.html', :class => 'visible-link'  %>
       <%= link_to 'Data', '/data.html', :class => 'visible-link'  %>
+      <%= link_to 'About', '/about.html', :class => 'visible-link'  %>
       <%= link_to 'Get Involved', '/involved.html', :class => 'visible-link'  %>
       <%= link_to 'GitHub', 'https://github.com/cornell-data', :class => 'visible-link'  %>
       <br>
       <h6>&copy; 2016 Cornell Open Data Initiative<h6>
+      </div>
     </footer>
 
   </body>

@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  position:fixed;
+  position: static;
   left:0px;
   bottom:0px;
   text-align: center;
@@ -43,10 +43,11 @@ footer {
 .codi-navbar {
   height: 90px;
   background-color: #ffffff;
+  overflow: hidden;
 }
 
 .navbar-brand {
-  width: 250px;
+  width: 270px;
 }
 
 .navbar-brand img {
@@ -56,4 +57,5 @@ footer {
 .navbar-brand h4 {
   font-size: 23px;
   margin: 5px;
+  line-height: 22px;
 }
