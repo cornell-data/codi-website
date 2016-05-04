@@ -112,3 +112,26 @@ footer {
   width:70px;
   padding-top: 7px;
 }
+
+.email {
+  color: #14928E;
+  font-size: 16px;
+}
+
+.github {
+  color: #14928E;
+  padding-left: 10px;
+  font-size: 16px;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
