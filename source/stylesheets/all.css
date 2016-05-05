@@ -21,6 +21,12 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px; 
+  }
+}
+
 .codi-link {
 	width: 150px;
 	font-family: 'Roboto', sans-serif;
@@ -65,31 +71,39 @@ footer {
   margin: 5px;
   line-height: 22px;
 }
+
 .row1{
   margin-top: 10%;
   margin-left: 8%;
 }
+
 .bold{
   font-style: bold;
 }
+
 .right{
   margin-left: 5%;
 }
+
 .involved{
   padding-left: 10px;
 }
+
 .contact{
   padding-left: 10%;
 }
+
 .boxed{
   border-style: solid;
   border-width: thin;
   border-radius: 10px;
   padding: 3px;
 }
+
 .greyish{
   color: #696969;
 }
+
 #holder{
   margin-top: 12%;
   margin-left: 5%;
@@ -98,7 +112,7 @@ footer {
   margin-top: 8%;
 } 
 
-/* CSS for About page */
+/* CSS for About Page */
 
 .sidebar p {
   padding-left:70px;
@@ -112,4 +126,26 @@ footer {
 .icon{
   width:70px;
   padding-top: 7px;
+}
+
+/* CSS for Data Page*/
+.dataset-logo {
+  float: left;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.dataset h3 {
+  margin-top: 5px;
+}
+
+.dataset a {
+  text-decoration: none;
+  color: #777;
+}
+
+.dataset a:hover {
+  text-decoration: none;
+  color: black;
 }

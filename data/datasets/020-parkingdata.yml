@@ -1,6 +1,6 @@
 name: Parking Data
 logo: TEST
-category: Map Data
+category: Map
 lede: "Locations of all the permit parking lots on campus. Does not include parkmobile locations."
 datafiles:
   - url: test

@@ -7,15 +7,46 @@ title: Data - CODI
 	<h2><b>Open Datasets</b></h2>
 	<br>
 
-	<div id = "map">
-	  <h4>Map Data</h4>
-	  <ul>
+	<div class="col-md-4 dataset" id = "map">
+		<%= image_tag "icons/map.svg", class: "dataset-logo" %>
+	    <h3><b>Map Data</b></h3>
+	    <ul>
 	    <% data.datasets.each do |dset| %>
-	    	<% if dset[1].category? "Map Data" %>
-	    	    <li><%= dset[1].name %></li>
+	    	<% if dset[1].category? "Map" %>
+	    		<% link_to "/dataset/#{dset[0].split('-')[1]}.html" do %>
+	    	    	<li><%= dset[1].name %></li>
+	    	    <% end %>
 	    	<% end %>
 	    <% end %>
-	  </ul>
+	    </ul>
+	</div>
+
+	<div class="col-md-4 dataset" id = "transit">
+		<%= image_tag "icons/transit.svg", class: "dataset-logo" %>
+	    <h3><b>Transit Data</b></h3>
+	    <ul>
+	    <% data.datasets.each do |dset| %>
+	    	<% if dset[1].category? "Transit" %>
+	    	    <% link_to "/dataset/#{dset[0].split('-')[1]}.html" do %>
+	    	    	<li><%= dset[1].name %></li>
+	    	    <% end %>
+	    	<% end %>
+	    <% end %>
+	    </ul>
+	</div>
+
+	<div class="col-md-4 dataset" id = "calender">
+		<%= image_tag "icons/calendar.svg", class: "dataset-logo" %>
+	    <h3><b>Calendar Data</b></h3>
+	    <ul>
+	    <% data.datasets.each do |dset| %>
+	    	<% if dset[1].category? "Calendar" %>
+	    	    <% link_to "/dataset/#{dset[0].split('-')[1]}.html" do %>
+	    	    	<li><%= dset[1].name %></li>
+	    	    <% end %>
+	    	<% end %>
+	    <% end %>
+	    </ul>
 	</div>
   
-</div><!-- .welcome -->
+</div>
