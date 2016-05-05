@@ -93,6 +93,12 @@ footer {
   padding-left: 10%;
 }
 
+/* involved page */
+
+.contributions p{
+  padding-left: 70px;
+}
+
 .boxed{
   border-style: solid;
   border-width: thin;
@@ -108,9 +114,18 @@ footer {
   margin-top: 12%;
   margin-left: 5%;
 }
+
 .spacer{
   margin-top: 8%;
 } 
+.icon2{
+  width:70px;
+  padding-top:22px;
+}
+.pusher{
+  padding-left: 70px;
+}
+
 
 /* CSS for About Page */
 
@@ -148,4 +163,24 @@ footer {
 .dataset a:hover {
   text-decoration: none;
   color: black;
+}
+
+.email {
+  color: #14928E;
+  font-size: 16px;
+}
+
+.github {
+  color: #14928E;
+  padding-left: 10px;
+  font-size: 16px;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
