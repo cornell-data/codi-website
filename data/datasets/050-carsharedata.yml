@@ -1,0 +1,23 @@
+name: Carshare Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all carshare opportunities."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/carshare/carshare.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/carshare/carshare.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/carshare/carshare.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/carshare/carshare.geojson
+    desc: GeoJSON
+fields:
+  - title: Name
+    type: String
+    example: Lot A
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476

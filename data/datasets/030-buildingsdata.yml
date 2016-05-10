@@ -1,0 +1,38 @@
+name: Buildings Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all registered Cornell University buildings and landmarks in the general Ithaca, NY area."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/buildings/buildings.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/buildings/buildings.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/buildings/buildings.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/buildings/buildings.geojson
+    desc: GeoJSON
+fields:
+  - title: Name
+    type: String
+    example: Lambda Chi Alpha
+  - title: Category
+    type: String
+    example: Greek
+  - title: ImageURL
+    type: String
+    example: 
+  - title: Address
+    type: String
+    example: "125 Edgemoor Lane, Ithaca, NY 14850"
+  - title: Latitude
+    type: Float
+    example: 42.44376
+  - title: Longitude
+    type: Float
+    example: -76.48793
+  - title: Notes
+    type: String
+    example: "Greek: IFC"
+  - title: AKA
+    type: String
+    example: LXA

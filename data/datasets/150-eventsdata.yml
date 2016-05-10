@@ -1,0 +1,35 @@
+name: Cornell Events Data
+logo: icons/calendar.svg
+category: Calendar
+lede: "Information on Cornell University registered events."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/events-data/master/data/data.csv
+    desc: CSV
+fields:
+  - title: Date
+    type: String
+    example: "2015-09-17T00:00:00-04:00"
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Description
+    type: String
+    example: ...
+  - title: PubDate
+    type: String
+    example: "Thu, 17 Sep 2015 00:00:00 -0400"
+  - title: Title
+    type: String
+    example: "Sep 17, 2015: Advanced Compost series at CCE-Tompkins Education Center"
+  - title: Content
+    type: String
+    example: None
+  - title: Link
+    type: String
+    example: "http://events.cornell.edu/event/advanced_compost_series"
+  - title: GUID
+    type: String
+    example: "tag:localist.com,2008:EventInstance_1535957"
+  - title: Longitude
+    type: Float
+    example: -76.503

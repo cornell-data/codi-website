@@ -1,0 +1,28 @@
+name: Route Schedule Data
+logo: icons/transit.svg
+category: Transit
+lede: "Route schedule for all TCAT system bus routes."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/route-schedules/route-schedules.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/route-schedules/route-schedules.json
+    desc: JSON
+fields:
+  - title: Route
+    type: Number
+    example: 74
+  - title: RouteInstance
+    type: Number
+    example: 1
+  - title: Day
+    type: String
+    example: Saturday
+  - title: Direction
+    type: String
+    example: Outbound
+  - title: Stop
+    type: String
+    example: Shops at Ithaca Mall @ Sears
+  - title: Time
+    type: String
+    example: 7:30AM

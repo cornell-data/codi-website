@@ -144,6 +144,14 @@ footer {
 }
 
 /* CSS for Data Page*/
+.dataset {
+  height: 300px;
+}
+
+.empty {
+  height: 100px;
+}
+
 .dataset-logo {
   float: left;
   height: 35px;

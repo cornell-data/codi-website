@@ -13,7 +13,7 @@ title: Data - CODI
 	    <ul>
 	    <% data.datasets.each do |dset| %>
 	    	<% if dset[1].category? "Map" %>
-	    		<% link_to "/dataset/#{dset[0].split('-')[1]}.html" do %>
+	    		<% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>
 	    	<% end %>
@@ -27,7 +27,7 @@ title: Data - CODI
 	    <ul>
 	    <% data.datasets.each do |dset| %>
 	    	<% if dset[1].category? "Transit" %>
-	    	    <% link_to "/dataset/#{dset[0].split('-')[1]}.html" do %>
+	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>
 	    	<% end %>
@@ -41,7 +41,37 @@ title: Data - CODI
 	    <ul>
 	    <% data.datasets.each do |dset| %>
 	    	<% if dset[1].category? "Calendar" %>
-	    	    <% link_to "/dataset/#{dset[0].split('-')[1]}.html" do %>
+	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
+	    	    	<li><%= dset[1].name %></li>
+	    	    <% end %>
+	    	<% end %>
+	    <% end %>
+	    </ul>
+	</div>
+
+	<div class="col-md-4 dataset empty" id = "dining">
+		<%= image_tag "icons/dining.svg", class: "dataset-logo" %>
+	    <h3><b>Dining Data</b></h3>
+	    <h4>Coming Soon</h4>
+	    <ul>
+	    <% data.datasets.each do |dset| %>
+	    	<% if dset[1].category? "Dining" %>
+	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
+	    	    	<li><%= dset[1].name %></li>
+	    	    <% end %>
+	    	<% end %>
+	    <% end %>
+	    </ul>
+	</div>
+
+	<div class="col-md-4 dataset empty" id = "academic">
+		<%= image_tag "icons/academic.svg", class: "dataset-logo" %>
+	    <h3><b>Academic Data</b></h3>
+	    <h4>Coming Soon</h4>
+	    <ul>
+	    <% data.datasets.each do |dset| %>
+	    	<% if dset[1].category? "Academic" %>
+	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>
 	    	<% end %>

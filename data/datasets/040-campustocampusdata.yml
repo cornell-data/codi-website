@@ -1,0 +1,23 @@
+name: Campus to Campus Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all the stops of teh Cornell Campus to Campus bus service."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/campustocampus/campustocampus.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/campustocampus/campustocampus.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/campustocampus/campustocampus.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/campustocampus/campustocampus.geojson
+    desc: GeoJSON
+fields:
+  - title: Name
+    type: String
+    example: Lot A
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476

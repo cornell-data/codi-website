@@ -1,0 +1,23 @@
+name: Lactation Rooms Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all designated lactation room locations."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/lactationrooms/lactationrooms.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/lactationrooms/lactationrooms.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/lactationrooms/lactationrooms.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/lactationrooms/lactationrooms.geojson
+    desc: GeoJSON
+fields:
+  - title: Name
+    type: String
+    example: "Warren Hall, Room 371"
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476

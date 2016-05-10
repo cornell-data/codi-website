@@ -31,7 +31,7 @@
 ###
 # Helpers
 data.datasets.each do |dset|
-  proxy "/dataset/#{dset[0].split('-')[1]}.html", "/dataset/template.html", :locals => {dataset: dset[1], short_name: dset[0].split('-')[1]}, :ignore => true
+  proxy "/data/#{dset[0].split('-')[1]}.html", "/dataset/template.html", :locals => {dset: dset[1], short_name: dset[0].split('-')[1]}, :ignore => true
 end
 ###
 

@@ -1,0 +1,38 @@
+name: Virtual Tour Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all virtual tour spots for Cornell University."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/virtualtour/virtualtour.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/virtualtour/virtualtour.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/virtualtour/virtualtour.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/virtualtour/virtualtour.geojson
+    desc: GeoJSON
+fields:
+  - title: ID
+    type: Number
+    example: 82
+  - title: Name
+    type: String
+    example: C2C Bus - Statler
+  - title: PanDegrees
+    type: Float
+    example: 310
+  - title: TiltDegrees
+    type: Float
+    example: 3
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476
+  - title: Address
+    type: String
+    example: 467-575 University Ave
+  - title: View
+    type: String
+    example: http://cumedia.univcomm.cornell.edu/tour2/C2Cstatler.html

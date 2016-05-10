@@ -1,0 +1,23 @@
+name: Info Booths Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all Cornell University information booths."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/infobooths/infobooths.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/infobooths/infobooths.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/infobooths/infobooths.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/infobooths/infobooths.geojson
+    desc: GeoJSON
+fields:
+  - title: Name
+    type: String
+    example: Info Booth - Hoy Road
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476

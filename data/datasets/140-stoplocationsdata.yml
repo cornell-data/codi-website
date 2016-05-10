@@ -1,0 +1,23 @@
+name: Stop Locations Data
+logo: icons/map.svg
+category: Transit
+lede: "Locations of all TCAT system bus stops."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-locations/stop-locations.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-locations/stop-locations.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-locations/stop-locations.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-locations/stop-locations.geojson
+    desc: GeoJSON
+fields:
+  - title: Name
+    type: String
+    example: A Lot East
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476

@@ -1,0 +1,20 @@
+name: Diaper Changing Stations Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all diaper changing stations around the Cornell campus."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/diaperchangingstations/diaperchangingstations.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/diaperchangingstations/diaperchangingstations.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/diaperchangingstations/diaperchangingstations.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/diaperchangingstations/diaperchangingstations.geojson
+    desc: GeoJSON
+fields:
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476

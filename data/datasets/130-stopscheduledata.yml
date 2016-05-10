@@ -1,0 +1,25 @@
+name: Stop Schedule Data
+logo: icons/transit.svg
+category: Transit
+lede: "Stop schedule for all TCAT system bus stops."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-schedules/stop-schedules.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-schedules/stop-schedules.json
+    desc: JSON
+fields:
+  - title: Stop
+    type: String
+    example: Green @ Commons
+  - title: Route
+    type: Number
+    example: 17
+  - title: Day
+    type: String
+    example: Weekdays
+  - title: Direction
+    type: String
+    example: Inbound
+  - title: Time
+    type: String
+    example: 5:28AM

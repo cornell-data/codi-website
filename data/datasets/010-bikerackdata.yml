@@ -1,0 +1,20 @@
+name: Bike Racks Data
+logo: icons/map.svg
+category: Map
+lede: "Locations of all registered bike racks on campus."
+datafiles:
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/bikeracks/bikeracks.csv
+    desc: CSV
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/bikeracks/bikeracks.json
+    desc: JSON
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/bikeracks/bikeracks.kml
+    desc: KML
+  - url: https://raw.githubusercontent.com/cornell-data/map-data/master/bikeracks/bikeracks.geojson
+    desc: GeoJSON
+fields:
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476
