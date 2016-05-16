@@ -1,7 +1,8 @@
 name: Campus to Campus Data
 logo: icons/map.svg
 category: Map
-lede: "Locations of all the stops of teh Cornell Campus to Campus bus service."
+lede: "Locations of all the stops of the Cornell Campus to Campus bus service."
+dlname: campustocampus
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/campustocampus/campustocampus.csv
     desc: CSV

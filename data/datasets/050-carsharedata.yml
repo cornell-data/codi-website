@@ -2,6 +2,7 @@ name: Carshare Data
 logo: icons/map.svg
 category: Map
 lede: "Locations of all carshare opportunities."
+dlname: carshare
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/carshare/carshare.csv
     desc: CSV

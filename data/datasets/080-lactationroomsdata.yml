@@ -2,6 +2,7 @@ name: Lactation Rooms Data
 logo: icons/map.svg
 category: Map
 lede: "Locations of all designated lactation room locations."
+dlname: lactationrooms
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/lactationrooms/lactationrooms.csv
     desc: CSV

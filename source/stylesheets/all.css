@@ -1,22 +1,22 @@
 /* CSS File for CODI */
 
 /* Layout.erb Styles */
-h1, h2, h3, h4, h5, h6 {
+body {
   font-family: 'Roboto', sans-serif;
 }
 
 body {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 50px;
   position: static;
   left:0px;
   right:0;
   bottom:0px;
   text-align: center;
-  height: 70px;
+  height: 100px;
   width: 100%;
   font-family: 'Roboto', sans-serif;
 }
@@ -93,10 +93,40 @@ footer {
   padding-left: 10%;
 }
 
+/* Home Index Page*/
+.header {
+  height: 400px;
+  background: url("/images/cornell.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 70px
+}
+
+.header h1 {
+  font-size: 60px;
+  text-shadow: 2px 2px 10px white;
+}
+
+.header h2 {
+  text-shadow: 1px 1px 5px white;
+}
+
+.home-info h2 {
+  margin-left: -15px;
+}
+
 /* involved page */
 
-.contributions p{
+.contributions p {
   padding-left: 70px;
+}
+
+.contributions h2 {
+  height: 70px;
+}
+
+.top-info h2 {
+  margin-left: -15px;
 }
 
 .boxed{
@@ -134,7 +164,7 @@ footer {
 }
 
 .org-logo{
-  width:32%;
+  width: 32%;
   padding: 10px 40px 20px 0px;
 }
 
@@ -143,7 +173,15 @@ footer {
   padding-top: 7px;
 }
 
-/* CSS for Data Page*/
+.left-part {
+  margin-right: 5%;
+}
+
+.left-part h2 {
+  margin-left: -15px;
+}
+
+/* CSS for Main Data Page*/
 .dataset {
   height: 300px;
 }
@@ -191,4 +229,59 @@ a:visited {
 
 a:hover {
     text-decoration: none;
+}
+
+
+/* CSS for a dataset page */
+.data-content {
+  margin-top: 30px;
+}
+
+.data-content h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 30px;
+}
+
+.dataset-logo-specific {
+  height: 200px;
+  width: 200px;
+}
+
+.logo-div {
+  margin-top: 30px;
+}
+
+.download-button {
+  padding: 10px 40px;
+  margin: 10px 20px 10px 0;
+  color: black;
+  background-color: #e8e8e8;
+  border-radius: 5px;
+  -moz-box-shadow:    1px 1px 1px 1px lightgrey;
+  -webkit-box-shadow: 1px 1px 1px 1px lightgrey;
+  box-shadow:         1px 1px 1px 1px lightgrey;  
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: lightgrey;
+}
+
+.download-button:active {
+  -moz-box-shadow:    0px 0px 0px 1px lightgrey;
+  -webkit-box-shadow: 0px 0px 0px 1px lightgrey;
+  box-shadow:         0px 0px 0px 1px lightgrey;
+  text-decoration: none;
+}
+
+.data-content th {
+  font-size: 15px;
+  background-color: #e8e8e8;
+  border: 1px solid lightgrey;
+  padding: 2px 10px;
+}
+
+.data-content td {
+  font-size: 12px;
+  border: 1px solid lightgrey;
+  padding: 2px 10px;
 }

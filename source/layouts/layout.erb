@@ -12,6 +12,8 @@
     <%= stylesheet_link_tag "normalize", "bootstrap", "all" %>
     <%= javascript_include_tag  "bootstrap", "jquery", "all" %>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
   </head>
 
   <body class="<%= page_classes %>">
@@ -19,7 +21,7 @@
       <nav class="navbar navbar-default navbar-fixed-top codi-navbar">
 
       <div class="container">
-        <% link_to "index.html", :class => 'navbar-brand' do %>
+        <% link_to "/index.html", :class => 'navbar-brand' do %>
           <%= image_tag "logo.png", class: "site-logo" %>
           <h4>Cornell Open</h4>
           <h4>Data Initiative</h4>

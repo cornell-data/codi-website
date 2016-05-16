@@ -2,6 +2,7 @@ name: Diaper Changing Stations Data
 logo: icons/map.svg
 category: Map
 lede: "Locations of all diaper changing stations around the Cornell campus."
+dlname: diaperchangingstations
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/diaperchangingstations/diaperchangingstations.csv
     desc: CSV

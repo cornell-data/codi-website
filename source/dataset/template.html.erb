@@ -1,5 +1,47 @@
 <% content_for(:title, dset.name) %>
 
 <div class="container">
+	<div class = "col-md-4 logo-div">
+		<%= image_tag dset.logo, class: "dataset-logo-specific" %>
+	</div>
+
+	<div class = "col-md-8 data-content">
+		<h2><b><%= dset.name %><b></h2>
+		<h4><%= dset.lede %></h4>
+
+
+		<h3><b>Download Raw Data</b></h3>
+		<% dset.datafiles.each do |file| %>
+			<% if file.desc? "CSV" %>
+				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >CSV</a>
+			<% end %>
+			<% if file.desc? "JSON" %>
+				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >JSON</a>
+			<% end %>
+			<% if file.desc? "KML" %>
+				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >KML</a>
+			<% end %>
+			<% if file.desc? "GeoJSON" %>
+				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >GeoJSON</a>
+			<% end %>
+		<% end %>
+		<br><br><br>
+
+		<h3><b>Data Fields</b></h3>
+		<table width="600px">
+			<tr>
+				<th>Field</b></th>
+				<th>Type</b></th>
+			</tr>
+			<% dset.fields.each do |field| %>
+				<tr>
+					<td><%= field.title %></td>
+					<td><%= field.type %></td>
+				</tr>
+			<% end %>
+
+		</table>
+
+	</div>
 
 </div>
