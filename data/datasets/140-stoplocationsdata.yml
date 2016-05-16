@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Transit
 lede: "Locations of all TCAT system bus stops according to the TCAT website."
 dlname: stop-locations
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-locations/stop-locations.csv
     desc: CSV

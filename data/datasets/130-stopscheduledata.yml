@@ -3,6 +3,7 @@ logo: icons/transit.svg
 category: Transit
 lede: "Stop schedule for all TCAT system bus stops according to the TCAT website."
 dlname: stop-schedules
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/stop-schedules/stop-schedules.csv
     desc: CSV

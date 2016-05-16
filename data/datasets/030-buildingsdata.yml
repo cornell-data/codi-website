@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all registered Cornell University buildings and landmarks in the general Ithaca, NY area."
 dlname: buildings
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/buildings/buildings.csv
     desc: CSV

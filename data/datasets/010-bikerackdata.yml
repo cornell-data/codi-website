@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all registered bike racks on campus."
 dlname: bikeracks
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/bikeracks/bikeracks.csv
     desc: CSV

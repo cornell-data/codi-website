@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all the stops of the Cornell Campus to Campus bus service."
 dlname: campustocampus
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/campustocampus/campustocampus.csv
     desc: CSV

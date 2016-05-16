@@ -1,8 +1,9 @@
 name: Cornell Events Data
 logo: icons/calendar.svg
 category: Calendar
-lede: "Information on Cornell University registered events. Events data is regularly updated."
+lede: "Information on Cornell University registered events. Events data is manually updated."
 dlname: events-data
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/events-data/master/data/data.csv
     desc: CSV

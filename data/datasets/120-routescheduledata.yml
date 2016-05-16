@@ -3,6 +3,7 @@ logo: icons/transit.svg
 category: Transit
 lede: "Route schedule for all TCAT system bus routes according to the TCAT website."
 dlname: route-schedules
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/TCAT-data/master/route-schedules/route-schedules.csv
     desc: CSV

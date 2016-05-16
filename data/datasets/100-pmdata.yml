@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all Park Mobile complient parking areas."
 dlname: parkmobile
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/parkmobile/parkmobile.csv
     desc: CSV
@@ -13,3 +14,21 @@ datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/parkmobile/parkmobile.geojson
     desc: GeoJSON
 fields:
+  - title: ID
+    type: Number
+    example: 4101
+  - title: Name
+    type: String
+    example: University Avenue
+  - title: Latitude
+    type: Float
+    example: 42.984
+  - title: Longitude
+    type: Float
+    example: -76.476
+  - title: Address
+    type: String
+    example: 467-575 University Ave
+  - title: Notes
+    type: String
+    example: "Hourly Rate: $8"

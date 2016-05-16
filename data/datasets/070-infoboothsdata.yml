@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all Cornell University information booths."
 dlname: infobooths
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/infobooths/infobooths.csv
     desc: CSV

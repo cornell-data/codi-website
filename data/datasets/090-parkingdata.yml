@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all the permit parking lots on campus. Does not include parkmobile locations."
 dlname: parking
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/parking/parking.csv
     desc: CSV

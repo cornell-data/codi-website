@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all virtual tour spots for Cornell University."
 dlname: virtualtour
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/virtualtour/virtualtour.csv
     desc: CSV

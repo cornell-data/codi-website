@@ -28,19 +28,24 @@
 		<br><br><br>
 
 		<h3><b>Data Fields</b></h3>
-		<table width="600px">
-			<tr>
-				<th>Field</b></th>
-				<th>Type</b></th>
-			</tr>
-			<% dset.fields.each do |field| %>
+		<% if dset.fieldsexist? "Y" %>
+			<table width="600px">
 				<tr>
-					<td><%= field.title %></td>
-					<td><%= field.type %></td>
+					<th>Field</b></th>
+					<th>Type</b></th>
 				</tr>
-			<% end %>
+				<% dset.fields.each do |field| %>
+					<tr>
+						<td><%= field.title %></td>
+						<td><%= field.type %></td>
+					</tr>
+				<% end %>
+			</table>
+		<% end %>
 
-		</table>
+		<% if dset.fieldsexist? "N" %>
+			<h4><%= dset.fields %></h4>
+		<% end %>
 
 	</div>
 

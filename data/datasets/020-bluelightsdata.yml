@@ -3,6 +3,7 @@ logo: icons/map.svg
 category: Map
 lede: "Locations of all Bluelight locations on campus."
 dlname: bluelights
+fieldsexist: Y
 datafiles:
   - url: https://raw.githubusercontent.com/cornell-data/map-data/master/bluelights/bluelights.csv
     desc: CSV
