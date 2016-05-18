@@ -232,7 +232,10 @@ footer {
   font-size: 16px;
 
 }
-
+/* because academic is emtpy rn */
+.aca{
+  margin-top: -10%;
+}
 a:visited {
     text-decoration: none;
 }
