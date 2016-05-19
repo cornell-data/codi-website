@@ -26,6 +26,16 @@ footer {
     width: 1000px; 
   }
 }
+@media (max-width: 505px){
+  .quickFix{
+    display: none;
+  }
+}
+@media (max-width: 505px){
+  .show{
+    display: inline-block;
+  }
+}
 
 .main{
   padding-top:20px;
@@ -55,7 +65,10 @@ footer {
   width: 65px;
   margin-right: 10px;
 }
-
+.show{
+  display: none;
+  float: right;
+}
 .codi-navbar {
   height: 90px;
   background-color: #ffffff;
@@ -192,6 +205,9 @@ footer {
 }
 
 /* CSS for Main Data Page*/
+.navey{
+  display: inline-block;
+}
 .dataset {
   height: 300px;
 }
@@ -232,7 +248,7 @@ footer {
   font-size: 16px;
 
 }
-/* because academic is emtpy rn */
+/* because academic is emtpy rn, also took out empty */
 .aca{
   margin-top: -10%;
 }
