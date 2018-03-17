@@ -45,10 +45,10 @@ Once you have your account information, you will need the following information 
   
 Here are a few useful notes about file names:
   - They are case sensitive.
-  - Your HTML files should end with ".html" or ".htm".
-  - The main file for your site should be called index.html or index.htm.
+  - Your HTML files should end with `.html` or `.htm`.
+  - The main file for your site should be called `index.html` or `index.htm`.
   - Please do not put spaces in your file names.
-  - Please do not use punctuation in file names. (periods or hyphens and underscores are fine).
+  - Please do not use punctuation in file names (periods or hyphens and underscores are fine).
   
 ### Transferring files via SFTP
 
