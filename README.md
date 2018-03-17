@@ -39,8 +39,8 @@ To update the website on the server, you will want to pull the latest copy from 
 Once you have your account information, you will need the following information to get started transferring files to the courses server:
   - **User name:** your NetID (this will be used as your login ID for the courses server)
   - **Password:** your new courses password (will be different than your NetID password)
-  - **Remote directory:** coursewww/codi.engineering.cornell.edu/htdocs
-  - **Remote log files:** coursewww/codi.engineering.cornell.edu/logs
+  - **Remote directory:** `coursewww/codi.engineering.cornell.edu/htdocs`
+  - **Remote log files:** `coursewww/codi.engineering.cornell.edu/logs`
   - **URL to the site:** https://codi.engineering.cornell.edu
   
 Here are a few useful notes about file names:
@@ -65,6 +65,6 @@ Here are a few useful notes about file names:
 3. Simply replace everything under the `htdocs` folder with your static files in the `/build` folder. The files must be under the `htdocs` folder; otherwise, you will run into a 404 error when trying to load the website.
 4. Refresh the server, and you should notice your changes are now live on the https://codi.engineering.cornell.edu website!
 
-### External Contributions
+## External Contributions
 
 If you are not a CODI admin but would like to suggest changes to the website, please email us at codi@cornellappdev.com or make a pull request.
