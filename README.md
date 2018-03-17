@@ -57,12 +57,14 @@ Here are a few useful notes about file names:
     ```
     /users/<netid>/coursewww/codi.engineering.cornell.edu/htdocs
     ```
+    
 3. When you're done updating the code, deliver the static code by building the site:
     ```
     bundle exec middleman build
     ```
-    This will create a static file for each file in your `source` folder and store it in a new `/build` folder. Everything under the `/build` folder is what you'll want to transfer to the course server.
-3. Simply replace everything under the `htdocs` folder with your static files in the `/build` folder. The files must be under the `htdocs` folder; otherwise, you will run into a 404 error when trying to load the website.
+    
+    This will create a static file for each file in your `source` folder and store it in a new `build` folder. Everything under the `build` folder is what you'll want to transfer to the course server.
+3. Simply replace everything under the `htdocs` folder with your static files in the `build` folder. The files must be under the `htdocs` folder; otherwise, you will run into a 404 error when trying to load the website.
 4. Refresh the server, and you should notice your changes are now live on the https://codi.engineering.cornell.edu website!
 
 ## External Contributions
