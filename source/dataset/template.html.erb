@@ -12,23 +12,23 @@
 
 		<h3><b>Download Raw Data</b></h3>
 		<% dset.datafiles.each do |file| %>
-			<% if file.desc? "CSV" %>
+			<% if file.desc == "CSV" %>
 				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >CSV</a>
 			<% end %>
-			<% if file.desc? "JSON" %>
+			<% if file.desc == "JSON" %>
 				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >JSON</a>
 			<% end %>
-			<% if file.desc? "KML" %>
+			<% if file.desc == "KML" %>
 				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >KML</a>
 			<% end %>
-			<% if file.desc? "GeoJSON" %>
+			<% if file.desc == "GeoJSON" %>
 				<a href = <%= file.url %> class = "download-button" download = <%= dset.dlname %> >GeoJSON</a>
 			<% end %>
 		<% end %>
 		<br><br><br>
 
 		<h3><b>Data Fields</b></h3>
-		<% if dset.fieldsexist? "Y" %>
+		<% if dset.fieldsexist == "Y" %>
 			<table width="600px">
 				<tr>
 					<th>Field</b></th>
@@ -41,12 +41,9 @@
 					</tr>
 				<% end %>
 			</table>
-		<% end %>
-
-		<% if dset.fieldsexist? "N" %>
+		<% else %>
 			<h4><%= dset.fields %></h4>
 		<% end %>
 
 	</div>
-
 </div>

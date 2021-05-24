@@ -18,7 +18,7 @@ title: Data - CODI
 	    <h3><b>Map Data</b></h3>
 	    <ul>
 	    <% data.datasets.each do |dset| %>
-	    	<% if dset[1].category? "Map" %>
+	    	<% if dset[1].category == "Map" %>
 	    		<% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>
@@ -32,7 +32,7 @@ title: Data - CODI
 	    <h3><b>Transit Data</b></h3>
 	    <ul>
 	    <% data.datasets.each do |dset| %>
-	    	<% if dset[1].category? "Transit" %>
+	    	<% if dset[1].category == "Transit" %>
 	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>
@@ -46,7 +46,7 @@ title: Data - CODI
 	    <h3><b>Calendar Data</b></h3>
 	    <ul>
 	    <% data.datasets.each do |dset| %>
-	    	<% if dset[1].category? "Calendar" %>
+	    	<% if dset[1].category == "Calendar" %>
 	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>
@@ -60,7 +60,7 @@ title: Data - CODI
 	    <h3><b>Dining Data</b></h3>
 	    <ul>
 	    <% data.datasets.each do |dset| %>
-	    	<% if dset[1].category? "Dining" %>
+	    	<% if dset[1].category == "Dining" %>
 	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>
@@ -75,7 +75,7 @@ title: Data - CODI
 	    <h4>Coming Soon</h4>
 	    <ul>
 	    <% data.datasets.each do |dset| %>
-	    	<% if dset[1].category? "Academic" %>
+	    	<% if dset[1].category == "Academic" %>
 	    	    <% link_to "/data/#{dset[0].split('-')[1]}.html" do %>
 	    	    	<li><%= dset[1].name %></li>
 	    	    <% end %>

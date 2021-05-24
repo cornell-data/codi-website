@@ -7,4 +7,4 @@ fieldsexist: N
 datafiles:
   - url: https://now.dining.cornell.edu/api/1.0/dining/eateries.json
     desc: JSON
-fields: "There is too many fields and types to list on this page. Please refer to the Cornell Dining API for all the available data fields provided throught the daily dataset."
+fields: "There are too many fields and types to list on this page. Please refer to the Cornell Dining API for all the available data fields provided throught the daily dataset."
