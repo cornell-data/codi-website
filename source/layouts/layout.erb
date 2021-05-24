@@ -10,7 +10,7 @@
     <title><%= current_page.data.title %></title>
 
     <%= stylesheet_link_tag "normalize", "bootstrap", "all" %>
-    <%= javascript_include_tag  "bootstrap", "jquery", "all" %>
+    <%= javascript_include_tag  "jquery", "bootstrap", "all" %>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
@@ -44,9 +44,16 @@
       <%= link_to 'Get Involved', '/involved.html', :class => 'visible-link'  %>
       <%= link_to 'GitHub', 'https://github.com/cornell-data', :class => 'visible-link'  %>
       <br>
-      <h6>&copy; 2018 Cornell Open Data Initiative<h6>
+      <h6>&copy; 2021 Cornell Open Data Initiative<h6>
       </div>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-0C0747M610"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-0C0747M610');
+      </script>
     </footer>
-
   </body>
 </html>
