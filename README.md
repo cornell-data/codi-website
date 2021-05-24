@@ -52,21 +52,21 @@ Here are a few useful notes about file names:
   
 ### Transferring files via SFTP
 
-1. Download [Fetch](http://fetchsoftworks.com/fetch/download/) or another software tool that supports SFTP.
-2. If you're using Fetch, follow the instructions [here](https://it.cornell.edu/managed-servers/transfer-files-using-fetch). Otherwise, just input the Courses Server Info from above into your alternative software tool. You should be able to see the files at the server path:
+1. In your terminal, enter `sftp <netid>@codi.engineering.cornell.edu`
+2. You should be able to see the files at the server path:
     ```
     /users/<netid>/coursewww/codi.engineering.cornell.edu/htdocs
     ```
     
-3. When you're done updating the code, deliver the static code by building the site:
+3. Build the site locally with:
     ```
     bundle exec middleman build
     ```
     
-    This will create a static file for each file in your `source` folder and store it in a new `build` folder. Everything under the `build` folder is what you'll want to transfer to the course server.
-3. Simply replace everything under the `htdocs` folder with your static files in the `build` folder. The files must be under the `htdocs` folder; otherwise, you will run into a 404 error when trying to load the website.
+    This will create a static file for each file in your `source` directory and store it in a new `build` directory. Everything under the `build` directory is what you'll want to transfer to the course server.
+3. Simply replace everything under the `htdocs` directory with your static files in the `build` directory. To do this, navigate to the `htdocs` directory in the sftp prompt, and navigate to the `build` directory in your local machine using `lcd`. Then, use the command `put -r *` to copy the contents of the `build` directory to the server's `htdocs` directory.
 4. Refresh the server, and you should notice your changes are now live on the https://codi.engineering.cornell.edu website!
 
 ## External Contributions
 
-If you are not a CODI admin but would like to suggest changes to the website, please email us at codi@cornellappdev.com or make a pull request.
+If you are not a CODI admin but would like to suggest changes to the website, please submit an issue or a pull request.
